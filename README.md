@@ -2,7 +2,7 @@
 This is a boundary condition written based on foam-extend-4.1.
 
 ## Math equation
-$$ U = 2 V_m \left({1 - ({r \over R})^2 }\right) $$
+$$ \alpha = 2 V_m \left({1 - ({r \over R})^2 }\right) $$
 
 Which $R$ and $V_m$ are inlet radius and mean velocity, respectively.
 
