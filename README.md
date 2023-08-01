@@ -2,7 +2,7 @@
 This is a boundary condition written based on foam-extend-4.1.
 
 ## Math equation
-$$ \nabla T = {\left(q^{"} - h_o(T-T_o)\right)} \over {k_f} $$
+$$ {\nabla T} = {\left(q^{"} - h_o(T-T_o)\right)} \over {k_f} $$
 
 
 2 V_m \left({1 - ({r \over R})^2 }\right)
