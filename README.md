@@ -2,8 +2,10 @@
 This is a boundary condition written based on foam-extend-4.1.
 
 ## Math equation
-$$ \nabla T = 2 V_m \left({1 - ({r \over R})^2 }\right) $$
+$$ \nabla T = q" - h_o(T-T_o) $$
 
+
+2 V_m \left({1 - ({r \over R})^2 }\right)
 Which $R$ and $V_m$ are inlet radius and mean velocity, respectively.
 
 ## Installation
