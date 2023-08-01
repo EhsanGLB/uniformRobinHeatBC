@@ -4,9 +4,7 @@ This is a boundary condition written based on foam-extend-4.1.
 ## Math equation
 $$ \nabla T = {{q^{"} - h_o(T-T_o)} \over k_f} $$
 
-
-2 V_m \left({1 - ({r \over R})^2 }\right)
-Which $R$ and $V_m$ are inlet radius and mean velocity, respectively.
+Which $T$, $q^{"}$, $h_o$, $T_o$, and $k_f$ are temperature, heat flux, heat transfer coefficient of an external fluid, temperature of the external fluid, and the thermal conductivity of the fluid, respectively.
 
 ## Installation
 It is working on foam-extend-4.1
