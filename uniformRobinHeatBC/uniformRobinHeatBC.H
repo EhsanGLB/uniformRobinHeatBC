@@ -25,8 +25,8 @@ Class
     Foam::uniformRobinHeatBC
 
 Description
-    Boundary condition specifies a wall, given flux value, thermal conductivity of fluid
-   , heat transfer coefficient of external fluid, and temperature of of external fluid.
+    Boundary condition specifies a wall, given heat flux value, the thermal conductivity of the fluid
+   , heat transfer coefficient of an external fluid, and temperature of the external fluid.
 
     @verbatim
         inlet
