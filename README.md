@@ -1,5 +1,5 @@
 # uniformRobinHeatBC
-This is a boundary condition written based on foam-extend-4.1.
+This is a boundary condition for heat transfer on walls written based on foam-extend-4.1.
 
 ## Math equation
 $$ \nabla T = {{q^{"} - h_o(T-T_o)} \over k_f} $$
@@ -13,6 +13,10 @@ git clone https://github.com/EhsanGLB/uniformRobinHeatBC.git
 cd uniformRobinHeatBC/uniformRobinHeatBC
 wmake libso
 cd ../case
+```
+
+## Getting Started
+```bash
 blockMesh
 buoyantBoussinesqSimpleFoam
 ```
