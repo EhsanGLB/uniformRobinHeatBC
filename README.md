@@ -1,10 +1,11 @@
 # uniformRobinHeatBC
 This is a boundary condition for heat transfer on walls written based on foam-extend-4.1.
 
-## Math equation
+## Mathematical Relationships
 $$ \nabla T = {{q^{"} - h_o(T-T_o)} \over k_f} $$
 
 Which $T$, $q^{"}$, $h_o$, $T_o$, and $k_f$ are temperature, heat flux, heat transfer coefficient of an external fluid, temperature of the external fluid, and the thermal conductivity of the fluid, respectively.
+
 
 ## Installation
 It is working on foam-extend-4.1
@@ -15,14 +16,17 @@ wmake libso
 cd ../case
 ```
 
+
 ## Getting Started
 ```bash
 blockMesh
 buoyantBoussinesqSimpleFoam
 ```
 
+
 ## Activation
 Add "libuniformRobinHeatBC.so" to case/system/controlDict
+
 
 ## References
 * [Golab, Ehsan, Behzad Vahedi, Ankur Jain, Robert A. Taylor, and Kambiz Vafai. "Laminar forced convection in a tube with a nano-encapsulated phase change materials: Minimizing exergy losses and maximizing the heat transfer rate." Journal of Energy Storage 65 (2023): 107233.](https://www.sciencedirect.com/science/article/abs/pii/S2352152X23006308)
