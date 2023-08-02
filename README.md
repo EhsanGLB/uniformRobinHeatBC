@@ -1,6 +1,7 @@
 # uniformRobinHeatBC
 This is a boundary condition for heat transfer on walls written based on foam-extend-4.1.
 
+
 ## Mathematical Relationships
 $$ \nabla T = {{q^{"} - h_o(T-T_o)} \over k_f} $$
 
